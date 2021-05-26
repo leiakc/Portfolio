@@ -11,6 +11,7 @@ var sec3 = false;
 var sec4 = false;
 var sec5 = false;
 var sec6 = false;
+var sec7 = false;
 
 var onSection = 0;
 // 0 - all
@@ -20,6 +21,7 @@ var onSection = 0;
 // 4 - illustration
 // 5 - jewellery
 // 6 - strategy
+// 7 - graphic design
 
 // when the menu button is clicked, the menu will show/hide
 function hideShow() {
@@ -43,6 +45,7 @@ function sect0(){
     sec4 = false;
     sec5 = false;
     sec6 = false;
+    sec7 = false;
   }
 
   whichSection();
@@ -59,6 +62,7 @@ function sect1(){
     sec4 = false;
     sec5 = false;
     sec6 = false;
+    sec7 = false;
   }
 
   whichSection();
@@ -74,6 +78,7 @@ function sect2(){
     sec4 = false;
     sec5 = false;
     sec6 = false;
+    sec7 = false;
   }
 
   whichSection();
@@ -89,6 +94,7 @@ function sect3(){
     sec4 = false;
     sec5 = false;
     sec6 = false;
+    sec7 = false;
   }
 
   whichSection();
@@ -104,6 +110,7 @@ function sect4(){
     sec3 = false;
     sec5 = false;
     sec6 = false;
+    sec7 = false;
   }
 
   whichSection();
@@ -119,6 +126,7 @@ function sect5(){
     sec3 = false;
     sec4 = false;
     sec6 = false;
+    sec7 = false;
   }
 
   whichSection();
@@ -134,6 +142,23 @@ function sect6(){
     sec3 = false;
     sec4 = false;
     sec5 = false;
+    sec7 = false;
+  }
+
+  whichSection();
+}
+
+function sect7(){
+  sec7 = !sec7;
+
+  if (sec7 == true){
+    sec0 = false;
+    sec1 = false;
+    sec2 = false;
+    sec3 = false;
+    sec4 = false;
+    sec5 = false;
+    sec6 = false;
   }
 
   whichSection();
@@ -158,6 +183,8 @@ function whichSection(){
   document.getElementById("button5").style.color = "black";
   document.getElementById("button6").style.background = "white";
   document.getElementById("button6").style.color = "black";
+  document.getElementById("button7").style.background = "white";
+  document.getElementById("button7").style.color = "black";
 
   if (sec0 == true){
     document.getElementById("button0").style.background = "grey";
@@ -171,11 +198,14 @@ function whichSection(){
     document.getElementById("how_do_i_survive_moth").style.display = "block";
     document.getElementById("existential_butterfly").style.display = "block";
     document.getElementById("behaviour_economy_map").style.display = "block";
-    //document.getElementById("analyze_described_context").style.display = "block";
+    document.getElementById("analyze_described_context").style.display = "block";
     document.getElementById("she_blossoms").style.display = "block";
     document.getElementById("finding_peace").style.display = "block";
     document.getElementById("video_vis").style.display = "block";
     document.getElementById("bats_breakfast").style.display = "block";
+    document.getElementById("website_between_the_cards").style.display = "block";
+    document.getElementById("verax").style.display = "block";
+    document.getElementById("youre_intoxicating").style.display = "block";
   } else if (sec1 == true) {
     document.getElementById("button1").style.background = "grey";
     document.getElementById("button1").style.color = "white";
@@ -190,10 +220,13 @@ function whichSection(){
     document.getElementById("how_do_i_survive_moth").style.display = "none";
     document.getElementById("existential_butterfly").style.display = "none";
     document.getElementById("behaviour_economy_map").style.display = "none";
-    //document.getElementById("analyze_described_context").style.display = "none";
+    document.getElementById("analyze_described_context").style.display = "none";
     document.getElementById("video_vis").style.display = "none";
     document.getElementById("she_blossoms").style.display = "none";
     document.getElementById("bats_breakfast").style.display = "none";
+    document.getElementById("website_between_the_cards").style.display = "none";
+    document.getElementById("verax").style.display = "none";
+    document.getElementById("youre_intoxicating").style.display = "none";
   } else if (sec2 == true) {
     document.getElementById("button2").style.background = "grey";
     document.getElementById("button2").style.color = "white";
@@ -208,10 +241,13 @@ function whichSection(){
     document.getElementById("how_do_i_survive_moth").style.display = "none";
     document.getElementById("existential_butterfly").style.display = "none";
     document.getElementById("behaviour_economy_map").style.display = "none";
-    //document.getElementById("analyze_described_context").style.display = "none";
+    document.getElementById("analyze_described_context").style.display = "none";
     document.getElementById("finding_peace").style.display = "none";
     document.getElementById("video_vis").style.display = "none";
     document.getElementById("bats_breakfast").style.display = "none";
+    document.getElementById("website_between_the_cards").style.display = "none";
+    document.getElementById("verax").style.display = "none";
+    document.getElementById("youre_intoxicating").style.display = "none";
   } else if (sec3 == true) {
     document.getElementById("button3").style.background = "grey";
     document.getElementById("button3").style.color = "white";
@@ -227,9 +263,12 @@ function whichSection(){
     document.getElementById("how_do_i_survive_moth").style.display = "none";
     document.getElementById("existential_butterfly").style.display = "none";
     document.getElementById("behaviour_economy_map").style.display = "none";
-    //document.getElementById("analyze_described_context").style.display = "none";
+    document.getElementById("analyze_described_context").style.display = "none";
     document.getElementById("she_blossoms").style.display = "none";
     document.getElementById("finding_peace").style.display = "none";
+    document.getElementById("website_between_the_cards").style.display = "none";
+    document.getElementById("verax").style.display = "none";
+    document.getElementById("youre_intoxicating").style.display = "none";
   } else if (sec4 == true) {
     document.getElementById("button4").style.background = "grey";
     document.getElementById("button4").style.color = "white";
@@ -243,11 +282,14 @@ function whichSection(){
     document.getElementById("overthinking").style.display = "none";
     document.getElementById("expressive_heart").style.display = "none";
     document.getElementById("behaviour_economy_map").style.display = "none";
-    //document.getElementById("analyze_described_context").style.display = "none";
+    document.getElementById("analyze_described_context").style.display = "none";
     document.getElementById("she_blossoms").style.display = "none";
     document.getElementById("finding_peace").style.display = "none";
     document.getElementById("video_vis").style.display = "none";
     document.getElementById("bats_breakfast").style.display = "none";
+    document.getElementById("website_between_the_cards").style.display = "none";
+    document.getElementById("verax").style.display = "none";
+    document.getElementById("youre_intoxicating").style.display = "none";
   } else if (sec5 == true) {
     document.getElementById("button5").style.background = "grey";
     document.getElementById("button5").style.color = "white";
@@ -261,18 +303,45 @@ function whichSection(){
     document.getElementById("how_do_i_survive_moth").style.display = "none";
     document.getElementById("existential_butterfly").style.display = "none";
     document.getElementById("behaviour_economy_map").style.display = "none";
-    //document.getElementById("analyze_described_context").style.display = "none";
+    document.getElementById("analyze_described_context").style.display = "none";
     document.getElementById("she_blossoms").style.display = "none";
     document.getElementById("finding_peace").style.display = "none";
     document.getElementById("video_vis").style.display = "none";
     document.getElementById("bats_breakfast").style.display = "none";
+    document.getElementById("website_between_the_cards").style.display = "none";
+    document.getElementById("verax").style.display = "none";
+    document.getElementById("youre_intoxicating").style.display = "none";
   } else if (sec6 == true) {
     document.getElementById("button6").style.background = "grey";
     document.getElementById("button6").style.color = "white";
 
     document.getElementById("behaviour_economy_map").style.display = "block";
-    ////document.getElementById("analyze_described_context").style.display = "block";
+    document.getElementById("analyze_described_context").style.display = "block";
 
+    document.getElementById("paper_plane_poetry").style.display = "none";
+    document.getElementById("what_am_i_doing_bug").style.display = "none";
+    document.getElementById("overthinking").style.display = "none";
+    document.getElementById("out_of_touch").style.display = "none";
+    document.getElementById("how_do_i_survive_moth").style.display = "none";
+    document.getElementById("existential_butterfly").style.display = "none";
+    document.getElementById("expressive_heart").style.display = "none";
+    document.getElementById("she_blossoms").style.display = "none";
+    document.getElementById("finding_peace").style.display = "none";
+    document.getElementById("video_vis").style.display = "none";
+    document.getElementById("bats_breakfast").style.display = "none";
+    document.getElementById("website_between_the_cards").style.display = "none";
+    document.getElementById("verax").style.display = "none";
+    document.getElementById("youre_intoxicating").style.display = "none";
+  } else if (sec7 == true) {
+    document.getElementById("button7").style.background = "grey";
+    document.getElementById("button7").style.color = "white";
+
+    document.getElementById("website_between_the_cards").style.display = "block";
+    document.getElementById("verax").style.display = "block";
+    document.getElementById("youre_intoxicating").style.display = "block";
+
+    document.getElementById("behaviour_economy_map").style.display = "none";
+    document.getElementById("analyze_described_context").style.display = "none";
     document.getElementById("paper_plane_poetry").style.display = "none";
     document.getElementById("what_am_i_doing_bug").style.display = "none";
     document.getElementById("overthinking").style.display = "none";
@@ -297,7 +366,7 @@ function whichSection(){
     document.getElementById("how_do_i_survive_moth").style.display = "block";
     document.getElementById("existential_butterfly").style.display = "block";
     document.getElementById("behaviour_economy_map").style.display = "block";
-    //document.getElementById("analyze_described_context").style.display = "block";
+    document.getElementById("analyze_described_context").style.display = "block";
     document.getElementById("she_blossoms").style.display = "block";
     document.getElementById("finding_peace").style.display = "block";
     document.getElementById("video_vis").style.display = "block";

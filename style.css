@@ -352,6 +352,23 @@ padding: 10px;
   padding-left: 2.5em;
   padding-right: 2.5em;
 }
+/* between the cards */
+.landscape-grid-container-btc {
+  margin-left: 5vw;
+  margin-right: 5vw;
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: 40% auto;
+  grid-gap: 20px;
+  background-color: white;
+  padding: 10px;
+}
+
+
+.landscape-grid-container-btc > div {
+  border-radius: 15pt;
+  grid-column: span 2;
+}
 
 /* --- behaviour_economy_map */
 
@@ -521,7 +538,7 @@ padding: 10px;
 /* IMAGES --------------------------------------------------------------------------------------*/
 /* Index -------------------------------------------------------------*/
 .grid-art-1 {
-  background-image: url("img/photography/out_of_touch.jpg");
+  background-image: url("img/photography/she_blossoms.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -529,21 +546,21 @@ padding: 10px;
 }
 
 .grid-art-2 {
-  background-image: url("img/jewellery/expressive_heart.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  min-height: 50vh;
-}
-.grid-art-3 {
   background-image: url("img/technology/paper_plane_poetry.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   min-height: 50vh;
 }
+.grid-art-3 {
+  background-image: url("img/jewellery/expressive_heart.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 50vh;
+}
 .grid-art-4 {
-  background-image: url("img/illustration/what_am_i_doing_bug.jpg");
+  background-image: url("img/graphic_design/website_between_the_cards.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -557,7 +574,7 @@ padding: 10px;
   min-height: 50vh;
 }
 .grid-art-6 {
-  background-image: url("img/illustration/how_do_i_survive_moth.jpg");
+  background-image: url("img/strategy/behaviour_economy_map/slide2.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -670,6 +687,33 @@ padding: 10px;
   display: block;
 }
 
+.grid2-art-14 {
+  background-image: url("img/graphic_design/website_between_the_cards.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 40vh;
+  display: block;
+}
+
+.grid2-art-15 {
+  background-image: url("img/graphic_design/verax/verax_display.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 40vh;
+  display: block;
+}
+
+.grid2-art-16 {
+  background-image: url("img/graphic_design/youre_intoxicating/youre_intoxicating.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 40vh;
+  display: block;
+}
+
 /* Individual Art Pages  -------------------------------------------------------------*/
 .expressive_heart-art {
   background-image: url("img/jewellery/expressive_heart.jpg");
@@ -682,6 +726,15 @@ padding: 10px;
 
 .overthinking-art {
   background-image: url("img/painting/overthinking.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  padding-top: 100%; /* 1:1 Aspect Ratio */
+}
+
+.chaos-art {
+  background-image: url("img/painting/chaos.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -767,6 +820,10 @@ padding: 10px;
   background-repeat: no-repeat;
   width: 100%;
   padding-top: 100%; /* 1:1 Aspect Ratio */
+}
+
+.vimeo-video-art {
+  /* min-height: 100vh; */
 }
 
 .behaviour_economy_map_1 {
@@ -1081,12 +1138,220 @@ padding: 10px;
    min-height: 80vh;
 }
 
+.youre_intoxicating_1 {
+  background-image: url("img/graphic_design/youre_intoxicating/slide1.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+   min-height: 80vh;
+}
+
+.youre_intoxicating_2 {
+  background-image: url("img/graphic_design/youre_intoxicating/slide2.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+   min-height: 80vh;
+}
+
+.youre_intoxicating_3 {
+  background-image: url("img/graphic_design/youre_intoxicating/slide3.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+   min-height: 80vh;
+}
+
+.youre_intoxicating_4 {
+  background-image: url("img/graphic_design/youre_intoxicating/slide4.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+   min-height: 80vh;
+}
+
+.youre_intoxicating_5 {
+  background-image: url("img/graphic_design/youre_intoxicating/slide5.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+   min-height: 80vh;
+}
+
+.youre_intoxicating_6 {
+  background-image: url("img/graphic_design/youre_intoxicating/slide6.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+   min-height: 80vh;
+}
+
+.youre_intoxicating_7 {
+  background-image: url("img/graphic_design/youre_intoxicating/slide7.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+   min-height: 80vh;
+}
+
+.youre_intoxicating_8 {
+  background-image: url("img/graphic_design/youre_intoxicating/slide8.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+   min-height: 80vh;
+}
+
+.youre_intoxicating_9 {
+  background-image: url("img/graphic_design/youre_intoxicating/slide9.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+   min-height: 80vh;
+}
+
+.youre_intoxicating_10 {
+  background-image: url("img/graphic_design/youre_intoxicating/slide10.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+   min-height: 80vh;
+}
+
+.youre_intoxicating_11 {
+  background-image: url("img/graphic_design/youre_intoxicating/slide11.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+   min-height: 80vh;
+}
+
+.youre_intoxicating_12 {
+  background-image: url("img/graphic_design/youre_intoxicating/slide12.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+   min-height: 80vh;
+}
+
+.verax_1 {
+  background-image: url("img/graphic_design/verax/slide1.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+   min-height: 80vh;
+}
+
+.verax_2 {
+  background-image: url("img/graphic_design/verax/slide2.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+   min-height: 80vh;
+}
+
+.verax_3 {
+  background-image: url("img/graphic_design/verax/slide3.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+   min-height: 80vh;
+}
+
+.verax_4 {
+  background-image: url("img/graphic_design/verax/slide4.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+   min-height: 80vh;
+}
+
+.verax_5 {
+  background-image: url("img/graphic_design/verax/slide5.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+   min-height: 80vh;
+}
+
+.verax_6 {
+  background-image: url("img/graphic_design/verax/slide6.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+   min-height: 80vh;
+}
+
+.verax_7 {
+  background-image: url("img/graphic_design/verax/slide7.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+   min-height: 80vh;
+}
+
+.verax_8 {
+  background-image: url("img/graphic_design/verax/slide8.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+   min-height: 80vh;
+}
+
+.verax_9 {
+  background-image: url("img/graphic_design/verax/slide9.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+   min-height: 80vh;
+}
+
+.verax_10 {
+  background-image: url("img/graphic_design/verax/slide10.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+   min-height: 80vh;
+}
+
+.verax_11 {
+  background-image: url("img/graphic_design/verax/slide11.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+   min-height: 80vh;
+}
+
+.verax_12 {
+  background-image: url("img/graphic_design/verax/slide12.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+   min-height: 80vh;
+}
+
 .finding-peace-art {
   background-image: url("img/painting/finding_peace.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
    min-height: 105vh;
+}
+
+.inspiration-in-reach-art {
+  background-image: url("img/painting/inspiration_in_reach.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+   min-height: 105vh;
+}
+
+.sunset-candy-art {
+  background-image: url("img/painting/sunset_candy.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+   min-height: 80vh;
 }
 
 .video-vis-art {
