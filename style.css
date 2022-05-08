@@ -40,6 +40,11 @@ a:hover{
   position: absolute;
 }
 
+/* img:hover{
+  background-color: yellow;
+  opacity: 0.5;
+} */
+
 /* TEXT/FONT ------------------------------------------------------------------*/
 
 html {
@@ -182,11 +187,19 @@ padding: 10px;
 }
 
 .grid2-art {
-  background-image: url("img/img.jpg");
+  /* background-image: url("img/img.jpg"); */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   min-height: 40vh;
+  display: block;
+}
+
+
+
+.grid2-art:hover {
+  background-color: white;
+  opacity: 0.65;
 }
 
 /* about page ------------------------------------------------------------- */
@@ -582,136 +595,53 @@ padding: 10px;
 }
 
 /* Portfolio -------------------------------------------------------------*/
-.grid2-art-1 {
+#overthinking {
   background-image: url("img/painting/overthinking.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  min-height: 40vh;
-  display: block;
 }
-.grid2-art-2 {
+#paper_plane_poetry {
   background-image: url("img/technology/paper_plane_poetry.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  min-height: 40vh;
-  display: block;
 }
-.grid2-art-3 {
-  background-image: url("img/illustration/what_am_i_doing_bug.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  min-height: 40vh;
-  display: block;
+#what_am_i_doing_bug {
+  background-image: url("img/illustration/what_am_i_doing_bug.jpg"); 
 }
-.grid2-art-4 {
+#out_of_touch {
   background-image: url("img/photography/out_of_touch.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  min-height: 40vh;
-  display: block;
 }
-.grid2-art-5 {
+#expressive_heart {
   background-image: url("img/jewellery/expressive_heart.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  min-height: 40vh;
-  display: block;
 }
-.grid2-art-6 {
+#how_do_i_survive_moth {
   background-image: url("img/illustration/how_do_i_survive_moth.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  min-height: 40vh;
-  display: block;
 }
-.grid2-art-7 {
+#existential_butterfly {
   background-image: url("img/illustration/existential_butterfly.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  min-height: 40vh;
-  display: block;
 }
-.grid2-art-8 {
+#behaviour_economy_map {
   background-image: url("img/strategy/behaviour_economy_map/slide2.png");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  min-height: 40vh;
-  display: block;
 }
-.grid2-art-9 {
+#analyze_described_context {
   background-image: url("img/strategy/analyze_described_context/slide7.png");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  min-height: 40vh;
-  display: block;
 }
-.grid2-art-10 {
+#she_blossoms {
   background-image: url("img/photography/she_blossoms.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  min-height: 40vh;
-  display: block;
 }
-.grid2-art-11 {
+#finding_peace {
   background-image: url("img/painting/finding_peace.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  min-height: 40vh;
-  display: block;
 }
-.grid2-art-12 {
+#video_vis {
   background-image: url("img/technology/video_vis_img.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  min-height: 40vh;
-  display: block;
 }
-.grid2-art-13 {
+#bats_breakfast {
   background-image: url("img/technology/bats_breakfast_2.png");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  min-height: 40vh;
-  display: block;
 }
-
-.grid2-art-14 {
+#website_between_the_cards {
   background-image: url("img/graphic_design/website_between_the_cards.png");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  min-height: 40vh;
-  display: block;
 }
-
-.grid2-art-15 {
+#verax {
   background-image: url("img/graphic_design/verax/verax_display.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  min-height: 40vh;
-  display: block;
 }
-
-.grid2-art-16 {
+#youre_intoxicating {
   background-image: url("img/graphic_design/youre_intoxicating/youre_intoxicating.png");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  min-height: 40vh;
-  display: block;
 }
 
 /* Individual Art Pages  -------------------------------------------------------------*/
@@ -822,9 +752,9 @@ padding: 10px;
   padding-top: 100%; /* 1:1 Aspect Ratio */
 }
 
-.vimeo-video-art {
+/* .vimeo-video-art { */
   /* min-height: 100vh; */
-}
+/* } */
 
 .behaviour_economy_map_1 {
   background-image: url("img/strategy/behaviour_economy_map/slide1.png");
