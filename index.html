@@ -1,102 +1,128 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" style="background-color: #fffaf1;">
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css">
     <script src="script.js"></script>
     <!-- web icon -->
-    <link rel="icon" href="img/icon.png" type="image/x-icon">
+    <link rel="icon" href="https://leiakc.github.io/portfolio/img/icon.png" type="image/x-icon">
   	<!--bringing in Google Fonts-->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <!-- title of page -->
-    <title>Home - Leia Kook-Chun's Portfolio</title>
+    <title>Portfolio | Leia Kook-Chun</title>
 </head>
+
+<header id="header" class="header-flex">
+    
+      <b class="logo" style="color: #fffaf1;"> 
+      <a href="https://leiakc.github.io/portfolio/index.html">
+      Leia KC
+      </a></b>
+  
+</header>
 
 <body>
 
-<header id="header" class="header-collapse">
-  <div class="header-stuff">
-    <h1 class="logo">
-      <a href="https://leiakc.github.io/portfolio/index.html">
-      Leia KC
-      </a>
-      <button class="menuButton" onclick="hideShow()">MENU</button>
-    </h1>
+<div class="container-main" style=" padding-bottom:0px; max-width: 1000px;">
+  <h2>Hi there! I'm <b style="color:#22A0B1;">Leia</b>, a designer of all sorts</h2>
+  <h3>I have a Bachelor of Design with Distinction from 
+    <a href="https://www.ocadu.ca/academics/undergraduate-studies/digital-futures" target="blank">OCAD University’s Digital Futures program</a>
+     where I developed my skills:
+     coding, graphic design, UI/UX design, data visualization, game design,
+     and more.</h3>
+    
+</div>
 
-    <nav id="menu" class="menu-stuff">
-      <h1 style="text-align: center;">MENU</h1>
-      <ul class="menu list">
-        <li><a href="https://leiakc.github.io/portfolio/index.html" style="text-decoration: underline;">HOME</a></li>
-        <li><a href="https://leiakc.github.io/portfolio/portfolio.html" style="text-decoration: underline;">PORTFOLIO</a></li>
-        <li><a href="https://leiakc.github.io/portfolio/about.html" style="text-decoration: underline;">ABOUT/CONTACT</a></li>
-      </ul>
-    </nav>
-  </div>
-</header>
+<div class="portfolio-settings">
 
-<div class="grid-container" style="margin-top: 13vh;">
-  <div class="main-art"><a href="https://leiakc.github.io/portfolio/illustration-idk-insects.html"><img src="img/img.png" style="width:100%"></a>
-  </div>
+  <div class="art-grid-container">
+    <!-- 1st row -->
+      <div class="grid-btc" onclick='location.href = "https:\\leiakc.github.io\\portfolio\\between_the_cards.html";'>
 
-  <div class="intro" style="padding-left: 40px; padding-right: 20px;">
-    <h2>
-    Hi! I’m Leia, a <br>multidisciplinary creator who
-    </h2>
-    <h2 style="color: #22A0B1; margin-top: 0px"><b>
-    codes,
-    <br>
-    paints,
-    <br>
-    illustrates,
-    <br>
-    photographs,
-    <br>
-    makes jewellery
-    <br>
-    & more!
-  </h2></b>
+        <div class="banner2">
+        <h3 style="margin-bottom: 0px; font-weight: bold;">Between the Cards</h3>
+        <element>Interactive story inspired by tarot cards</element>
+      
+        </div>
+        <element class="hide">
+        <div>
+        <element class="on-regular" >Coding</element>
+          <element class="on-regular">Game Design</element>
+          <element class="on-regular">Graphic Design</element>
+        </div>
+        </element>
+      </div>
+
+      <div class="grid-infog" onclick='location.href = "https:\\leiakc.github.io\\portfolio\\summary_olsp.html";'>
+
+          <div class="banner2">
+            <h3 style="margin-bottom: 0px; font-weight: bold; ">
+            Summary: Evaluation of OLSPs</h3>
+          <element>Document layout for program progress</element>
+          </div>
+          <element class="hide">
+            
+            <element class="on-light">Graphic Design</element>
+            <element class="on-light">Illustration</element>
+            <element class="on-light">Data Vis</element>
+
+          </element>
+      </div>
+
+      <div class="grid-social-orbit" onclick='location.href = "https:\\leiakc.github.io\\portfolio\\social_orbit.html";'>
+
+          <div class="banner2">
+          <h3 style="margin-bottom: 0px; font-weight: bold;">
+            Social Orbit</h3>
+           <element>Social interaction tracker web app</element>
+          </div>
+          <element class="hide">
+            <element class="on-regular">Coding</element>
+            <element class="on-regular">Data Vis</element>
+            <element class="on-regular">UI/UX</element>
+          
+          </element>
+      </div>
+
+    
+    <!-- 2nd row -->
+
+    <div class="grid-acgu" onclick='location.href = "https:\\leiakc.github.io\\portfolio\\children_confiding_in_parents.html";'>
+        <div class="banner2">
+        <h3 style=" font-size: 1.4em;   margin-bottom: 0px; font-weight: bold;">
+          Children Confiding in their Parents
+          </h3>
+          <element>Graph from public data</element>
+          </div>
+          <element class="hide">
+          <element class="on-light">Data Vis</element>
+          <element class="on-light">Graphic Design</element>
+      </element> 
+    </div>
+
+    <div class="grid-verax" onclick='location.href = "https:\\leiakc.github.io\\portfolio\\verax.html";'>
+       
+        <div class="banner2">
+        <h3 style="  margin-bottom: 0px; font-weight: bold;">Verax: Logo Reveals</h3>
+        <element>Motion graphic logo reveals for brand</element>
+        </div>
+        <element class="hide">
+        <element class="on-light">Motion Design</element>
+        <element class="on-light">Graphic Design</element>
+      </element>
+    </div>
+    
+
   </div>
 </div>
 
-<br>
-
-<div class="art-grid-container">
-<!-- 1st row -->
-  <div class="grid-art-1"><a href="https://leiakc.github.io/portfolio/photography-she-blossoms.html"><img src="img/img.png" style="width:100%"></a>
-  </div>
-
-  <div class="grid-art-2"><a href="https://leiakc.github.io/portfolio/technology-paper-plane-poetry.html"><img src="img/img.png" style="width:100%"></a>
-  </div>
-
-  <div class="grid-art-3"><a href="https://leiakc.github.io/portfolio/jewellery-expressive-heart.html"><img src="img/img.png" style="width:100%"></a>
-  </div>
-
-<!-- 2nd row -->
-
-  <div class="grid-art-4"><a href="https://leiakc.github.io/portfolio/graphic-design-website-between-the-cards.html"><img src="img/img.png" style="width:100%"></a>
-  </div>
-
-  <div class="grid-art-5"><a href="https://leiakc.github.io/portfolio/painting-overthinking.html"><img src="img/img.png" style="width:100%"></a>
-  </div>
-
-  <div class="grid-art-6"><a href="https://leiakc.github.io/portfolio/strategy-behaviour-economy-map.html"><img src="img/img.png" style="width:100%"></a>
-  </div>
-
-</div>
-
-<br>
-
-<div class="blue-spread">
-<a href="https://leiakc.github.io/portfolio/portfolio.html"><button style="margin-bottom: 0.6em">Portfolio</button></a>
-<a href="https://leiakc.github.io/portfolio/about.html"><button>About Me</button></a>
-</div>
-
-<footer>
-© Leia Kook-Chun 2021
-</footer>
+</main>
 </body>
 
-
-
+</div>
+<footer>
+  © Leia Kook-Chun 2023
+  </footer>
 </html>
