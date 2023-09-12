@@ -485,7 +485,7 @@ padding: 10px;
 }
 
 
-.art-grid-container > div {
+.art-grid-container > a {
   cursor: pointer;
   grid-column: auto;
   margin: 10px;
@@ -596,7 +596,7 @@ padding: 10px;
   transition: opacity 0.23s ease;
 }
 
-.art-grid-container > div:hover > .hide {
+.art-grid-container > a:hover > .hide {
   opacity: 100%;
 }
 
