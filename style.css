@@ -204,6 +204,20 @@ body {
   margin: 0;
 }
 
+.page-wrapper-day-int > img {
+  background-image: url("img/Interactions of a Day.jpg");
+  background-size: cover;
+  background-position-y: 59%;
+  background-repeat: no-repeat;
+  height: 100px;
+  border-radius: 0px;
+  border: 0;
+  border-collapse:collapse;
+  background-color: #fff;
+  display: block;
+  margin: 0;
+}
+
 img {
   width:100%;
   height:auto;
@@ -395,6 +409,14 @@ padding: 10px;
 
 .grid-verax {
   background-image: url("img/verax_display.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 50vh;
+}
+
+.grid-day-int {
+  background-image: url("img/Day_Int_Display.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
