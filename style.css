@@ -699,12 +699,13 @@ padding: 10px;
     height: 50vh;
   }
 
-  #pdf2 {
-    height: 25vh;
+   #pdf2 {
+    height: 30vh;
   }
 
   #s-o-proto {
-    
+    width: 80%;
+    height: 400;
   }
   
 }
