@@ -250,8 +250,8 @@ img {
   margin-right: 5.0em; */
   
   margin: 30px auto;
-  margin-left: 9vw;
-  margin-right: 9vw;
+  /* margin-left: 9vw;
+  margin-right: 9vw; */
   
   max-width: 800px; 
   /* 700px is good for the text, but 800px is nicer for the media */
@@ -288,6 +288,11 @@ h3 {
   
   /* margin-left: 5.0em;
   margin-right: 5.0em; */
+}
+
+iframe {
+  border: none;
+  border-radius: 1%;
 }
 
 /* BUTTON ------------------------------------------------ */
@@ -664,6 +669,11 @@ padding: 10px;
 
 @media screen and (max-width: 900px){ 
 
+    .container-main {
+      margin-left: 9vw;
+      margin-right: 9vw;
+    }
+
    .art-grid-container > a {
      grid-column: span 3;
    }
@@ -689,9 +699,12 @@ padding: 10px;
     height: 50vh;
   }
 
+  #pdf2 {
+    height: 25vh;
+  }
+
   #s-o-proto {
-    width: 80%;
-    height: 400;
+    
   }
   
 }
