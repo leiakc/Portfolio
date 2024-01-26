@@ -161,7 +161,7 @@ body {
 }
 
 .page-wrapper-dci > img {
-  background-image: url("img/summary-dci-header-img.PNG");
+  background-image: url("img/summary-dci-header-img.png");
   background-size: cover;
   background-position: 50;
   /* background-position-y: 90%; */
@@ -176,7 +176,7 @@ body {
 }
 
 .page-wrapper-text-bubble-gradient > img {
-  background-image: url("img/text-bubble-gradient-header-img.PNG");
+  background-image: url("img/text-bubble-gradient-header-img.png");
   background-size: cover;
   /* background-position: 50; */
   background-position-y: 40%;
@@ -191,7 +191,7 @@ body {
 }
 
 .page-wrapper-hap > img {
-  background-image: url("img/hap-page-wrapper.PNG");
+  background-image: url("img/hap-page-wrapper.png");
   background-size: cover;
   background-position: 50;
   background-repeat: no-repeat;
